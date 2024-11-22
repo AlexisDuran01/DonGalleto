@@ -1,1 +1,2 @@
+[![Board Status](https://dev.azure.com/78749/bafef235-e656-4d3d-8833-3184379f9613/abfe2855-6df3-423a-b5ab-78ed66156b90/_apis/work/boardbadge/a4d60ff1-6a40-4e51-83d8-163ce30c0d18)](https://dev.azure.com/78749/bafef235-e656-4d3d-8833-3184379f9613/_boards/board/t/abfe2855-6df3-423a-b5ab-78ed66156b90/Microsoft.RequirementCategory)
 # DonGalleto
