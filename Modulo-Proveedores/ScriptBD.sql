@@ -20,7 +20,7 @@ INSERT INTO tipoSalas (tipo) VALUES
 ('VIP'),
 ('4DX');
 
-SELECT * FROM tipoSalas;
+
 
 INSERT INTO salas (nombre, capacidad, tipoSala, estatus) VALUES
 ('Sala 1', 100, 1, 1),  -- Sala Estándar
@@ -34,6 +34,7 @@ INSERT INTO salas (nombre, capacidad, tipoSala, estatus) VALUES
 ('Sala 9', 140, 5, 1),  -- 4DX
 ('Sala 10', 140, 5, 1); -- 4DX
 
+SELECT * FROM tipoSalas;
 SELECT * FROM salas;
 
 SELECT
