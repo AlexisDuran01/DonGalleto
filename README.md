@@ -30,4 +30,4 @@ Instrucciones para instalar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/nombre_del_proyecto.git
+   git clone https://github.com/AlexisDuran01/DonGalleto.git
