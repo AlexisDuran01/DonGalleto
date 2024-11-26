@@ -1,3 +1,33 @@
-# DonGalleto
-# Test 1
-# Test 2
+# Nombre del Proyecto
+
+Descripción breve de lo que hace tu proyecto y su propósito.
+
+## Tabla de Contenidos
+
+- [Características](#características)
+- [Tecnologías Usadas](#tecnologías-usadas)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+
+## Características
+
+- Característica 1: Breve descripción.
+- Característica 2: Breve descripción.
+- Característica 3: Breve descripción.
+
+## Tecnologías Usadas
+
+- **Lenguaje:** (por ejemplo, Python, JavaScript, etc.)
+- **Frameworks/Bibliotecas:** (por ejemplo, React, Flask, etc.)
+- **Base de Datos:** (por ejemplo, PostgreSQL, MongoDB, etc.)
+- **Otros:** (cualquier otra tecnología relevante)
+
+## Instalación
+
+Instrucciones para instalar el proyecto en tu máquina local:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/nombre_del_proyecto.git
