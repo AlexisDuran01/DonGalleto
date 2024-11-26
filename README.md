@@ -1,6 +1,6 @@
-# Nombre del Proyecto
+# Don Galleto
 
-Descripción breve de lo que hace tu proyecto y su propósito.
+Sistema diseñado para poder la administracion de un negocio de galletas
 
 ## Tabla de Contenidos
 
