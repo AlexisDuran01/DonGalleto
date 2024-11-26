@@ -34,10 +34,6 @@ INSERT INTO salas (nombre, capacidad, tipoSala, estatus) VALUES
 ('Sala 9', 140, 5, 1),  -- 4DX
 ('Sala 10', 140, 5, 1); -- 4DX
 
-SELECT * FROM salas;
-SELECT * FROM tipoSalas;
-
-
 SELECT
     salas.id,
     nombre ,
@@ -49,3 +45,10 @@ FROM
     salas
 INNER JOIN
     tipoSalas ON salas.tipoSala = tipoSalas.id;
+
+
+
+SELECT * FROM salas;
+SELECT * FROM tipoSalas;
+
+
