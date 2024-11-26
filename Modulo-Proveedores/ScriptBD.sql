@@ -34,8 +34,9 @@ INSERT INTO salas (nombre, capacidad, tipoSala, estatus) VALUES
 ('Sala 9', 140, 5, 1),  -- 4DX
 ('Sala 10', 140, 5, 1); -- 4DX
 
-SELECT * FROM tipoSalas;
 SELECT * FROM salas;
+SELECT * FROM tipoSalas;
+
 
 SELECT
     salas.id,
