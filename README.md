@@ -13,7 +13,7 @@ Sistema diseñado para poder la administracion de un negocio de galletas
 
 ## Características
 
-- Característica 1: Breve descripción.
+- Característica 1: Es capaz de gestionar el negocio completo.
 - Característica 2: Breve descripción.
 - Característica 3: Breve descripción.
 
