@@ -30,6 +30,9 @@ Sistema diseñado para poder la administracion de un negocio de galletas
 
 ## prueba
 
+## prueba
+
+
 Instrucciones para instalar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
