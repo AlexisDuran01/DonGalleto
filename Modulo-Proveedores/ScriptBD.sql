@@ -7,7 +7,7 @@ CREATE TABLE salas (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(40) NOT NULL,
     capacidad INT NOT NULL,
-    estatus integer,
+    estatus INT,
     descripcion TEXT,
     tipoSala INT REFERENCES tipoSalas(id)
 );
@@ -52,5 +52,51 @@ INNER JOIN
     tipoSalas ON salas.tipoSala = tipoSalas.id;
 
 
+CREATE TABLE roomTypes (
+    id SERIAL PRIMARY KEY,
+    type VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE cinemaRooms (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(40) NOT NULL,
+    capacity INT NOT NULL,
+    status INT,
+    description TEXT,
+    roomType INT REFERENCES roomTypes(id)
+);
+
+INSERT INTO roomTypes (type) VALUES
+('Sala Estándar'),
+('3D'),
+('IMAX'),
+('VIP'),
+('4DX');
+
+INSERT INTO cinemaRooms (name, capacity, roomType, status) VALUES
+('Sala 1', 100, 1, 1),
+('Sala 2', 100, 1, 1),
+('Sala 3', 120, 2, 1),
+('Sala 4', 120, 2, 1),
+('Sala 5', 150, 3, 1),
+('Sala 6', 150, 3, 1),
+('Sala 7', 80, 4, 1),
+('Sala 8', 80, 4, 1),
+('Sala 9', 140, 5, 1),
+('Sala 10', 140, 5, 1);
 
 
+SELECT * FROM cinemaRooms;
+SELECT * FROM roomTypes;
+
+SELECT
+    cinemaRooms.id,
+    name,
+    capacity,
+    status,
+    description,
+    roomTypes.type AS roomType
+FROM
+    cinemaRooms
+INNER JOIN
+    roomTypes ON cinemaRooms.roomType = roomTypes.id;

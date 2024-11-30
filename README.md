@@ -25,9 +25,15 @@ Sistema diseñado para poder la administracion de un negocio de galletas
 - **Otros:** (cualquier otra tecnología relevante)
 
 ## Instalación
+## Instalación
+## prueba
+
 
 Instrucciones para instalar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/AlexisDuran01/DonGalleto.git
+
+
+   
